@@ -1,0 +1,67 @@
+/* === Background Gradient: Blue to Orange === */
+.stApp {
+    background: linear-gradient(135deg, #007BFF 0%, #FFA500 100%);
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    min-height: 100vh;
+    background-attachment: fixed;
+    padding: 1rem;
+}
+
+/* === Headings: White with Shadow === */
+h1, h2, h3 {
+    color: white !important;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* === Form Buttons (e.g. Submit, Book) === */
+button[kind="primary"], .stButton > button {
+    background-color: #FFA500 !important;
+    color: #ffffff !important;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px !important;
+    padding: 14px 28px !important;
+    margin: 8px 0;
+    width: 100% !important;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+/* === Button Hover Effect === */
+button[kind="primary"]:hover, .stButton > button:hover {
+    background-color: #e67300 !important;
+}
+
+/* === Input Fields: White and Readable === */
+input, textarea, select, .stDateInput input {
+    background-color: white !important;
+    color: black !important;
+    font-size: 18px !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+    border: 1px solid #ccc !important;
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+/* === Court Buttons: Extra Large === */
+div.stButton > button {
+    font-size: 24px !important;
+    padding: 20px 40px !important;
+    margin: 12px auto !important;
+}
+
+/* === Alert Messages === */
+.stAlert-success {
+    background-color: #dff0d8 !important;
+    border-color: #3c763d;
+    color: #3c763d;
+}
+
+.stAlert-warning {
+    background-color: #fcf8e3 !important;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}
+
